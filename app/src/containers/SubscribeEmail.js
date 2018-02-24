@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { updateSubscribeEmail } from '../actions';
-import SubscribeEmail from '../components/SubscribeEmail';
+import SubscribeEmail from '../components/SubscribeEmailForm';
 
 const mapStateToProps = (state) => {
     return {

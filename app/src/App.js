@@ -16,7 +16,7 @@ import './App.css';
 
 import reducer from './reducers';
 import PerformanceChart from './containers/PerformanceChart';
-import SubscribeEmailForm from './components/SubscribeEmailForm';
+import SubscribeEmailForm from './containers/SubscribeEmail';
 
 const loggerMiddleware = createLogger();
 
