@@ -49,7 +49,7 @@ const App = () => (
             </div>
             <Content>
             <Row gutter={64}>
-                <Col span={11}>
+                <Col md={{ span: 11 }}>
                     <h1>Mañana Capital</h1>
                     <h3>Mañana Capital is a hedge fund that actively manages crypto-asset portfolios.</h3>
                     <Card className="subscribeForm">
@@ -57,7 +57,7 @@ const App = () => (
                         <SubscribeEmailForm />
                     </Card>
                 </Col>
-                <Col span={13}>
+                <Col md={{ span: 13 }}>
                     <PerformanceChart />
                 </Col>
             </Row>
