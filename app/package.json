@@ -18,9 +18,10 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0"
   },
+  "homepage" : "http://manana.capital",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -r ../static/ && cp -rf ./build/* ../",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
