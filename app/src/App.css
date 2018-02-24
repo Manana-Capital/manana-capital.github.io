@@ -1,0 +1,48 @@
+
+.app {
+  margin: 0 auto;
+  padding: 0 48px;
+  max-width: 1000px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.header__logo {
+  line-height: 64px;
+  height: 46px;
+  padding-left: 60px;
+  background-image: url('./logo.png');
+  background-size: auto 30px;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.header__menu {
+  line-height: 64px;
+}
+
+.subscribeForm {
+  margin-top: 36px;
+}
+
+.subscribeForm__action {
+  margin-bottom: 0;
+}
+
+.performanceChart {
+  text-align: center;
+  margin: 60px 0 0 0;
+}
+.performanceChart__spin {
+  line-height: 288px;
+  height: 288px;
+}
+.performanceChart .recharts-cartesian-axis-tick-line,
+.performanceChart .recharts-cartesian-grid-vertical,
+.performanceChart .recharts-cartesian-axis-line {
+  display: none;
+}
