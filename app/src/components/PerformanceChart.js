@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Spin } from 'antd';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, CartesianAxis } from 'recharts';
+import { LineChart, Line, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const formatYAxis = (val) => {
+    // eslint-disable-next-line
     return `\$${val}`;
 }
 

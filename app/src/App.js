@@ -8,10 +8,6 @@ import {
     Menu,
     Row,
     Col,
-    Form,
-    Input,
-    Button,
-    Icon,
     Card
 } from 'antd';
 
@@ -19,13 +15,9 @@ import 'antd/dist/antd.min.css';
 import './App.css';
 
 import reducer from './reducers';
-import VisibleText from './containers/VisibleText';
-import VisibleTextToggler from './containers/VisibleTextToggler';
 import PerformanceChart from './containers/PerformanceChart';
-import SubscribeEmail from './containers/SubscribeEmail';
 import SubscribeEmailForm from './components/SubscribeEmailForm';
 
-const FormItem = Form.Item;
 const loggerMiddleware = createLogger();
 
 const store = createStore(
@@ -36,14 +28,14 @@ const store = createStore(
   )
 );
 
-const { Footer, Content } = Layout;
+const { Content } = Layout;
 const App = () => (
     <Provider store={ store }>
         <div className="app">
             <div
                 className="header">
                 <div className="header__logo"> 
-                    <h2>Mañana Capital</h2>
+
                 </div>
                 <Menu
                     mode="horizontal"
@@ -69,13 +61,7 @@ const App = () => (
                     <PerformanceChart />
                 </Col>
             </Row>
-                
-                
-
-                <VisibleText />
-                <VisibleTextToggler />
             </Content>
-            <Footer>Footer</Footer>
         </div>
     </Provider>
 );
