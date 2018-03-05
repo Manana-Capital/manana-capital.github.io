@@ -58,7 +58,7 @@ const App = () => (
                     </Card>
                 </Col>
                 <Col md={{ span: 13 }}>
-                    <PerformanceChart />
+                    {/* <PerformanceChart /> */}
                 </Col>
             </Row>
             </Content>
