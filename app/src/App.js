@@ -37,7 +37,7 @@ const App = () => (
                 <div className="header__logo"> 
 
                 </div>
-                <Menu
+                {/* <Menu
                     mode="horizontal"
                     defaultSelectedKeys={['2']}
                     className="header__menu"
@@ -45,7 +45,7 @@ const App = () => (
                     <Menu.Item key="1">nav 1</Menu.Item>
                     <Menu.Item key="2">nav 2</Menu.Item>
                     <Menu.Item key="3">nav 3</Menu.Item>
-                </Menu>
+                </Menu> */}
             </div>
             <Content>
             <Row gutter={64}>
